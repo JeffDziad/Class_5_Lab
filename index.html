@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ranks</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="wrapper">
+    <h1>Military Greeting</h1>
+<form>
+    <h3>Rank</h3>
+    <input type="radio" name="rank" id="rank-private" data-rank="Pvt." checked="checked">
+    <label for="rank-private">Private</label>
+    <br>
+    <input type="radio" name="rank" id="rank-sergeant" data-rank="Sgt.">
+    <label for="rank-sergeant">Sergeant</label>
+    <br>
+    <input type="radio" name="rank" id="rank-general" data-rank="Gen.">
+    <label for="rank-general">General</label>
+    <br>
+    <h3>Personal Info</h3>
+    <label for="first_Name">First Name: </label>
+    <input type="text" id="first_Name">
+    <br>
+    <label for="last_Name">Last Name: </label>
+    <input type="text" id="last_Name">
+    <br><br>
+    <button>Generate Greeting</button>
+</form>
+    <br>
+    <span class="output"></span>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="code.js"></script>
+</body>
+</html>
+
