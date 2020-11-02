@@ -7,7 +7,7 @@
 </head>
 <body>
 <div id="wrapper">
-    <h1>Military Greeting</h1>
+    <h1>Question 1.</h1>
 <form>
     <h3>Rank</h3>
     <input type="radio" name="rank" id="rank-private" data-rank="Pvt." checked="checked">
@@ -30,7 +30,38 @@
 </form>
     <br>
     <span class="output"></span>
+    <br>
+    <div id="q2">
+        <h1>Question 2.</h1>
+        <table>
+            <tr>
+                <th>Qty</th>
+                <th>Product</th>
+                <th>Price</th>
+                <th>Total</th>
+            </tr>
+            <tr>
+                <td><input type="number" id="qtyLearning"></td>
+                <td>Learning jQuery</td>
+                <td id="priceLearning" data-price="39.99">$39.99</td>
+                <td id="totalLearning"></td>
+            </tr>
+            <tr>
+                <td><input type="number" id="qtyDonation"></td>
+                <td>jQuery Donation</td>
+                <td id="priceDonation" data-price="14.99">$14.99</td>
+                <td id="totalDonation"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>Grand Total:</td>
+                <td id="gTotal"></td>
+            </tr>
+        </table>
+    </div>
 </div>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="code.js"></script>
 </body>
